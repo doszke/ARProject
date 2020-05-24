@@ -1,0 +1,143 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9372,
+            "type": "VEC3",
+            "max": [
+                34.96460723876953,
+                63.140254974365237,
+                22.436607360839845
+            ],
+            "min": [
+                -19.71400260925293,
+                -0.03036785125732422,
+                -17.628402709960939
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 49308,
+            "type": "SCALAR",
+            "max": [
+                9371
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 309696,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 112464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 112464,
+            "byteLength": 197232,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures\\5.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material_44",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 5.960464477539063e-8
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "mesh_id31",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "node_id30",
+            "matrix": [
+                0.008105033077299595,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.008105033077299595,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.008105033077299595,
+                0.0,
+                -0.06180334463715553,
+                -0.25575411319732668,
+                0.23651418089866639,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
